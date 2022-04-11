@@ -129,7 +129,7 @@ reviews_scraper <- function(companyName, companyNum, pagesNum){
   
     
   return(
-    write_delim(merged_df, paste("/Users/adrianacanas/OneDrive - Erasmus University Rotterdam/THESIS/Script Output Files/", companyName, ".csv",sep = ""),
+    write_delim(merged_df, paste("YOUR PATH", companyName, ".csv",sep = ""),
                 delim = ";", append = FALSE, col_names = TRUE
     
   )
